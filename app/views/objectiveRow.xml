@@ -1,0 +1,20 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View id="wrapper">
+			<Label class="field" id="specific" />
+			<View class="verticalLine" />
+			<Label class="field" id="quantity" />
+			<View class="verticalLine" />
+			<Label class="field" id="distribution" />
+			<View class="verticalLine" />
+			<Label class="field" id="retail" />
+			<View class="verticalLine" />
+			<Label class="field" id="responsible" />
+			<View class="verticalLine" />
+			<Label class="field" id="dueDate" />
+			<View class="verticalLine" />
+			<Switch class="field" id="completeObjective" />
+
+		</View>
+	</TableViewRow>
+</Alloy>

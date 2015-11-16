@@ -1,0 +1,6 @@
+<Alloy>
+	<Popover id="popover" ns="Ti.UI.iPad">
+		<TableView id="list" />
+		<Picker id="picker" />
+	</Popover>
+</Alloy>

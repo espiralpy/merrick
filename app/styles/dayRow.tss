@@ -1,0 +1,33 @@
+"Label" : {
+	height: Ti.UI.FILL,
+	touchEnabled: false,
+	font: Alloy.Globals.fonts.REGULAR_14,
+	color: Alloy.Globals.colors.CORK
+},
+"#row" : {
+	width: Ti.UI.FILL,
+	height: 52
+},
+"#wrapper" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundSelectedColor: Alloy.Globals.colors.TANGERINE,
+	backgroundNormalColor: "transparent",
+	touchEnabled: false
+},
+"#vertical" : {
+	left: 50
+},
+"#horizontal" : {
+	left: 50,
+	bottom: 0
+},
+"#number" : {
+	left: 0,
+	width: 50,
+	textAlign: "center"
+},
+"#dayLbl" : {
+	left: 80,
+	width: Ti.UI.FILL
+}

@@ -1,0 +1,12 @@
+".objectivesWrp" : {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: 530
+},
+"#window" : {
+	backgroundColor: "transparent"
+},
+"#add" : {
+	right: 10,
+	width: 120
+}

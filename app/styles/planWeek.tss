@@ -1,0 +1,99 @@
+"#window" : {
+	title: L("planNew_str"),
+	backgroundColor: Alloy.Globals.colors.BACKGROUND
+},
+"#header" : {
+	touchEnabled: false,
+},
+".splitHeader" : {
+	top:170,
+	width: Ti.UI.FILL
+},
+"#buttons" : {
+	top:610,
+	height:50    	
+},
+"#discard" : {
+	top:0,
+	right: 145,
+	titleid: "labDiscard_str",
+	enabled : false
+},
+"#feedback" : {
+	top:0,
+	right: 220,
+	title: " Mngr. Feedback ",
+	enabled : false
+},
+".grayBtn2" : {
+	width: Ti.UI.SIZE,
+},
+
+"#save" : {
+	top:0,
+	right: 90,
+	backgroundImage: "/store/save.png",
+	width: 42,
+	height: 29,
+	enabled : false
+},
+"#send" : {
+	top:0,
+	right: 15,
+	titleid: "labSend_str",
+	enabled : false
+},
+"#btnAddStores" : {
+	left: 15,
+	backgroundImage: "/store/add.png",
+	width: 40,
+	height: 30
+},
+"#back" : {
+	left: 15,
+},
+"#next" : {
+	right: 15,
+},
+".weekNav" : {
+	width: 18,
+	height: 23
+},
+".tableWrapper" : {
+	top: 225,
+	left: 10,
+	right: 10,
+	bottom: 10,
+	height:377
+},
+".tableHeader" : {
+	layout: "horizontal"
+},
+".tableTitle" : {
+	left: 10
+},
+
+".verticalLine" : {
+	backgroundColor: Alloy.Globals.colors.GRAY
+},
+"#name" : {
+	width: 170
+},
+"#callType" : {
+	width: 129
+},
+"#quad" : {
+	width: 70
+},
+"#days" : {
+	width: 90
+},
+"#stops" : {
+	width: 50
+},
+"#objectives" : {
+	width: 100
+}
+"#comments" : {
+	width: 250
+},

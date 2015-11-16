@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="window">
+		<View class="shadow" />
+		<View class="popup">
+			<View class="splitHeader">
+				<Button class="closeBtn" id="closeBtn" />
+				<Label class="splitTitle" textid="objectives_str" />
+			</View>
+			<View class="objectivesWrp" id="objectivesWrp" />
+			<Button class="grayBtn" id="add" titleid="add_objective_str" />
+		</View>
+	</Window>
+</Alloy>

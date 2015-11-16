@@ -1,0 +1,34 @@
+".wrapper" : {
+	width: Ti.UI.FILL,
+	height: 55,
+	layout: "horizontal",
+	touchEnabled: false
+},
+".label" : {
+	left: 0,
+	height: Ti.UI.FILL,
+	textAlign: "center",
+	color: Alloy.Globals.colors.BLACK,
+	font: Alloy.Globals.fonts.DEFAULT_14
+},
+"#number" : {
+	width: 280
+},
+"#description" : {
+	width: 450
+},
+"#a" : {
+	width: 150
+},
+// "#units" : {
+	// width: 70
+// },
+// "#bought" : {
+	// width: 70
+// },
+// "#np" : {
+	// width: 70
+// },
+// "#n" : {
+	// width: 70
+// }

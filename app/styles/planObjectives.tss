@@ -1,0 +1,33 @@
+".tableWrapper" : {
+	top: 15,
+	left: 10,
+	right: 10,
+	bottom: 10
+},
+".tableHeader" : {
+	layout: "horizontal"
+},
+".tableTitle" : {
+	left: 10
+},
+".verticalLine" : {
+	backgroundColor: Alloy.Globals.colors.GRAY
+},
+"#add" : {
+	left: 30
+},
+"#specific" : {
+	width : 300
+},
+"#quantity" : {
+	width : 100
+},
+"#dist" : {
+	width : 100
+},
+"#retail" : {
+	width : 100
+},
+"#dueDate" : {
+	width : 150
+}

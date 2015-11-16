@@ -1,0 +1,38 @@
+".field" : {
+	left: 10,
+	color: Alloy.Globals.colors.GRAY_DARK,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	enabled : false,
+	bubbleParent: false,
+	textAlign : "left"
+},
+"#wrapper" : {
+	width: Ti.UI.FILL,
+	height: 70,
+	layout: "horizontal"
+},
+"#specific" : {
+	width : 310,
+},
+"#quantity" : {
+	width : 125
+},
+"#dist" : {
+	width : 127
+},
+"#retail" : {
+	width : 127
+},
+"#dueDate" : {
+	width : 150
+}
+"#options" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+"#edit" : {
+	left: 5
+},
+"#deleteBtn" : {
+	left: 47
+}

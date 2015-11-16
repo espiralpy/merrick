@@ -1,0 +1,16 @@
+"#popover" : {
+	width: 300,
+	height: 350,
+	pickerStyle : {
+		width: Ti.UI.SIZE,
+		height: Ti.UI.SIZE
+	}
+},
+"#list" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+"#picker" : {
+	type : Ti.UI.PICKER_TYPE_DATE,
+	selectionIndicator : true
+}

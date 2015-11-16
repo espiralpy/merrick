@@ -1,0 +1,39 @@
+<Alloy>
+	<Window id="windowStores">
+		<View class="shadow" />
+	    <View class="popup">
+	    	<View class="splitHeader">
+				<Button class="closeBtn" id="closeBtn" />
+				<Label class="splitTitle" textid="titleStore_str" />
+			</View>
+			<View class="filters">
+				<View class="row" id="viewShow">
+					<Label class="optionTitle" textid="select_quad_str" id="selectionType" />
+					<Label class="optionLbl" id="quad" text="All" />
+					<ImageView class="optionIcon" />
+				</View>
+				<Button class="row" id="viewQuad">
+					<Label class="optionTitle" textid="select_all_stores_str" />
+				</Button>
+			</View>
+			<TextField id="textSearch"/>
+			<View class="tableWrapper">
+				<View class="tableHeader">
+					<Label class="tableTitle" textid="labNamDes_str" id="tname" />
+					<View class="verticalLine tLine" />
+					<Label class="tableTitle" textid="labAddress_str" id="taddress" />
+					<View class="verticalLine tLine" />
+					<Label class="tableTitle" textid="labPhone_str" id="tphone" />
+					<View class="verticalLine tLine" />
+					<Label class="tableTitle" textid="labQuad_str" id="tquad" />
+				</View>
+				<TableView id="tableView" />
+			</View>
+			<View id="tape4">
+				<Switch id="basicSwitch"/>
+				<Label class="show" textid="check_str"/>
+				<Button id="btnDone" />
+			</View>
+		</View>    
+	</Window>
+</Alloy>

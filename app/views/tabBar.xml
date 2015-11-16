@@ -1,0 +1,27 @@
+<Alloy>
+	<View id="bar">
+		<View id="tabs">
+			<Button class="tab" icon="dashboardIcon" id="dashboard">
+				<ImageView class="tabIcon" id="dashboardIcon" />
+				<Label class="tabTitle" textid="daily_str" />
+			</Button>
+			<Button class="tab" icon="planIcon" id="plan">
+				<ImageView class="tabIcon" id="planIcon" />
+				<Label class="tabTitle" textid="planweek_str" />
+			</Button>
+			<Button class="tab" icon="syncIcon" id="sync">
+				<ImageView class="tabIcon" id="syncIcon" />
+				<Label class="tabTitle" textid="sync_str" />
+			</Button>
+			<Button class="tab" icon="storesIcon" id="stores">
+				<ImageView class="tabIcon" id="storesIcon" />
+				<Label class="tabTitle" textid="stores_str" />
+			</Button>
+			<Button class="tab" icon="logoutIcon" id="logout">
+				<ImageView class="tabIcon" id="logoutIcon" />
+				<Label class="tabTitle" textid="logout_str" />
+			</Button>
+		</View>
+	</View>
+	<ImageView id="logo" onClick="logoClick"/>
+</Alloy>

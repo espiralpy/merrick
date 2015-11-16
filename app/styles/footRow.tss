@@ -1,0 +1,12 @@
+"#wrapper" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".presetTitle" : {
+	width: "33%",
+	height: Ti.UI.FILL,
+	textAlign: "center",
+	font: Alloy.Globals.fonts.DEFAULT_15,
+	color: Alloy.Globals.colors.GRAY_DARK
+}

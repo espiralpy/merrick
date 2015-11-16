@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="window">
+	    <View class="content">
+			<TextField id="textSearch"/>
+			<View class="tableWrapper">
+				<View class="tableHeader">
+					<Label class="tableTitle id" textid="store_id_str" />
+					<View class="verticalLine" />
+					<Label class="tableTitle name" textid="store_name_str" />
+					<View class="verticalLine" />
+					<Label class="tableTitle address" textid="labAddress_str" />
+					<View class="verticalLine" />
+					<Label class="tableTitle phone" textid="labPhone_str" />
+				</View>
+				<TableView id="tableView" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

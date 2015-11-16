@@ -1,0 +1,18 @@
+<Alloy>
+	<View class="container" id="container">
+		<ScrollView id="autoadjust"  >
+		<View class="tableWrapper" id="callComments">
+			<View class="tableHeader">
+				<Label class="tableTitle" textid="call_comments_str" />
+			</View>
+			<TextArea class="table" id="callsList" />
+		</View>
+		<View class="tableWrapper" id="storeComments">
+			<View class="tableHeader">
+				<Label class="tableTitle" textid="store_comments_str" />
+			</View>
+			<TextArea class="table" id="storesList" />
+		</View>
+		</ScrollView>
+	</View>
+</Alloy>

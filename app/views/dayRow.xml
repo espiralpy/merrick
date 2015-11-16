@@ -1,0 +1,10 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View id="wrapper">
+			<View class="verticalLine" id="vertical" />
+			<View class="horizontalLine" id="horizontal" />
+			<Label id="number" />
+			<Label id="dayLbl" />
+		</View>
+	</TableViewRow>
+</Alloy>

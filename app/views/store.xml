@@ -1,0 +1,19 @@
+<Alloy>
+	<View class="itemsContainer" id="itemsContainer">
+		<View class="container" id="container">
+			<Label id="stop" />
+			<View class="dataWrp">
+				<Label id="storeName" class="text" />
+				<Label id="address" class="text" />
+				<Label id="zip" class="text" />
+			</View>
+			<View class="footer">
+				<ImageView class="phone" />
+				<Label id="phone" />
+				<Label id="quadLbl" />
+			</View>
+		</View>
+		<ImageView id="ucBookMark" />
+		<ImageView id="complete" />	
+	</View>
+</Alloy>

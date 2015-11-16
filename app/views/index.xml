@@ -1,0 +1,13 @@
+<Alloy>
+	<TabGroup id="tabGroup">
+		<Tab id="dashboardTab" >
+			<Require src="dashboard" id="dashboard" />
+		</Tab>
+		<Tab id="planTab">
+			<Require src="planWeek" id="planWeek" />
+		</Tab>
+		<Tab id="storesTab">
+			<Require src="stores" id="stores" />
+		</Tab>
+	</TabGroup>
+</Alloy>

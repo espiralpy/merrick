@@ -1,0 +1,192 @@
+<Alloy>
+	<View class="container">
+		<View id="menu">
+			<Label class="item" id="m" action="m" />
+			<View class="horizontalLine" />
+			<Label class="item" id="a" action="a" />
+			<View class="horizontalLine" />
+			<Label class="item" id="d" action="d" />
+			<View class="horizontalLine" />
+			<Label class="item" id="t" action="t" />
+			<View class="horizontalLine" />
+			<Label class="item" id="o" action="o" />
+			<View class="horizontalLine" />
+			<Label class="item" id="p" action="p" />
+			<View class="horizontalLine" />
+		</View>
+		<View id="content">
+			<View id="m_wrapper" class="madtopWrapper" >
+				<View id="marketingWrp" class="tableWrapper">
+					<View class="tableHeader">
+						<Label class="tableTitle" textid="merchandising_str" />
+					</View>
+					<TableView class="table">
+						<TableViewRow class="presetRow">
+							<Label class="presetTitle" textid="offshelf_str" />
+							<Label class="presetValue numericKeyboard" id="mOffshelf" />
+						</TableViewRow>
+						<TableViewRow class="presetRow">
+							<Label class="presetTitle" textid="endcap_str" />
+							<Label class="presetValue numericKeyboard" id="mEndcap" />
+						</TableViewRow>
+						<TableViewRow class="presetRow">
+							<Label class="presetTitle" textid="reset_str" />
+							<Label class="presetValue" id="mReset" />
+						</TableViewRow>
+					</TableView>
+				</View>
+				<View class="tableWrapper" id="feetsWrp">
+					<View class="tableHeader">
+						<Label class="tableTitle" textid="linear_feets_str" />
+					</View>
+					<TableView class="table" id="feets">
+						<HeaderView>
+							<View class="tableHeadView">
+								<Label class="headerLbl feetLbl" textid="product_str" />
+								<Label class="headerLbl feetLbl" textid="linear_feet_str" />
+								<Label class="headerLbl feetLbl" textid="delta_str" />
+							</View>
+						</HeaderView>
+						<TableViewRow class="threeColumnWrapper">
+							<Label class="threeColumnRow" id="mTotalLabel" textid="total_lf_str" />
+							<Label class="threeColumnRow" id="mTotal" />
+						</TableViewRow>
+					</TableView>
+				</View>
+			</View>
+			<View id="a_wrapper" class="madtopWrapper" >
+				<View id="advertisingWrp">
+					<View class="tableWrapper">
+						<View class="tableHeader">
+							<Label class="tableTitle" textid="advertising_str" />
+						</View>
+						<TableView class="table">
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="recomp_str" />
+								<Label class="presetValue" id="aRecomp" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="pop_str" />
+								<Label class="presetValue" id="aPop" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="show_str" />
+								<Label class="presetValue" id="aShow" />
+							</TableViewRow>
+						</TableView>
+					</View>
+				</View>
+			</View>
+			<View id="d_wrapper" class="madtopWrapper" >
+				<View id="distributionWrp">
+					<View class="tableWrapper">
+						<View class="tableHeader">
+							<Label class="tableTitle" textid="distribution_str" />
+						</View>
+						<TableView class="table">
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="sku_str" />
+								<Label class="presetValue numericKeyboard" id="dSku" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="order_str" />
+								<Label class="presetValue" id="dOrder" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="dsv_sales_amt_str" />
+								<TextField class="presetValue numericKeyboard" id="dsvSales" />
+								<Label class="dollarSign" text="$" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="rsv_sales_amt_str" />
+								<TextField class="presetValue numericKeyboard" id="rsvSales" />
+								<Label class="dollarSign" text="$" />
+							</TableViewRow>
+						</TableView>
+					</View>
+				</View>
+			</View>
+			<View id="t_wrapper" class="madtopWrapper" >
+				<View id="trainingWrp">
+					<View class="tableWrapper">
+						<View class="tableHeader">
+							<Label class="tableTitle" textid="training_caps_str" />
+						</View>
+						<TableView class="table">
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="semina_str" />
+								<Label class="presetValue" id="tSeminar" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="attendees_str" />
+								<Label class="presetValue" id="tAttendees" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="training_str" />
+								<Label class="presetValue" id="tTraining" />
+							</TableViewRow>
+						</TableView>
+					</View>
+				</View>
+			</View>
+			<View id="o_wrapper" class="madtopWrapper" >
+				<View id="operationsWrp">
+					<View class="tableWrapper">
+						<View class="tableHeader">
+							<Label class="tableTitle" textid="operations_str" />
+						</View>
+						<TableView class="table">
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="objectives_str" />
+								<Label class="presetValue" id="oObjectives" />
+							</TableViewRow>
+							<TableViewRow class="presetRow">
+								<Label class="presetTitle" textid="ride_str" />
+								<Label class="presetValue" id="oRide" />
+							</TableViewRow>
+						</TableView>
+					</View>
+				</View>
+			</View>
+			<View id="p_wrapper" class="madtopWrapper" >
+				<View id="promoWrp">
+					<View class="tableWrapper">
+						<View class="tableHeader">
+							<Label class="tableTitle" textid="promo_str" />
+							<!-- <Button id="newPromo" /> -->
+							<Button id="addPromo" class="addBtn" />
+						</View>
+						<TableView class="table" id="promo">
+							<HeaderView>
+								<View class="tableHeadView">
+									<Label class="tableTitle promoTitle promoNumber" textid="vip_number_str" />
+									<View class="verticalLine" />
+									<Label class="tableTitle promoTitle promoDesc" textid="description_str" />
+									<View class="verticalLine" /><!-- 
+									<Label class="tableTitle promoTitle promoA" textid="a_str" />
+									<View class="verticalLine" /> -->			
+									<Label class="tableTitle promoTitle " textid="dist_sales_str" id="dsv" />
+									<Label class="verticalLine" />
+									<Label class="tableTitle promoTitle " textid="retail_sales_str" id="rsv" />
+									<Label class="verticalLine" />
+									<Label class="tableTitle promoTitle promoStatus" textid="status_str" />
+									<View class="verticalLine" />
+									<Label class="tableTitle promoTitle promoUnits" textid="units_str" />
+									<View class="verticalLine" />
+									<!-- <Label class="tableTitle promoTitle promoBought" textid="bought_str" />
+									<View class="verticalLine" />
+									<Label class="tableTitle promoTitle promoNotBought" textid="not_bought_str" />
+									<View class="verticalLine" />
+									<Label class="tableTitle promoTitle promoNotPres" textid="not_press_str" />
+									<View class="verticalLine" />
+									<Label class="tableTitle promoTitle promoNotAvailable" textid="not_available_str" />
+									<View class="verticalLine" /> -->
+								</View>
+							</HeaderView>
+						</TableView>
+					</View>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>

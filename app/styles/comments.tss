@@ -1,0 +1,29 @@
+".container": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".tableWrapper" : {
+	top: 20,
+	bottom: 20,
+	left: 30,
+	right: 30,
+	width: 450
+},
+".tableTitle" : {
+	width: 400
+},
+".table" : {
+	color: Alloy.Globals.colors.BLACK,
+	font: Alloy.Globals.fonts.DEFAULT_16,
+	suppressReturn:false,
+},
+"#storeComments" : {
+	full : {
+		width: 950
+	},
+	suppressReturn:false,
+},
+"#autoadjust":{
+	layout:"horizontal"
+}

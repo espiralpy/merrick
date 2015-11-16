@@ -1,0 +1,32 @@
+"#window": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "transparent"
+},
+".background" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "#333",
+	opacity: 0.8
+},
+".wrapper" : {
+	width: 350,
+	height: Ti.UI.SIZE,
+	backgroundColor: "#333",
+	borderRadius: 10,
+	layout: "vertical"
+},
+".indicator" : {
+	top: 20,
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG,
+	visible: true
+},
+"#loadingText" : {
+	top: 20,
+	bottom: 20,
+	text: "Loading",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: Alloy.Globals.colors.WHITE,
+	font: Alloy.Globals.fonts.DEFAULT_18_BOLD
+}

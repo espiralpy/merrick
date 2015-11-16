@@ -1,0 +1,73 @@
+<Alloy>
+	<View class="verticalWrapper">
+		<ScrollView class="container">
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="storeId_str" />
+				</View>
+				<Label class="rowValue" id="id" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="mailing_address_str" />
+				</View>
+				<Label class="rowValue" id="mailingAddress" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="manager_str" />
+				</View>
+				<TextField class="rowValue" id="manager" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="contact_str" />
+				</View>
+				<TextField class="rowValue" id="contact" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="cat_dry_str" />
+				</View>
+				<Label class="rowValue" id="catDry" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="cat_can_str" />
+				</View>
+				<Label class="rowValue" id="catCan" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="dog_dry_str" />
+				</View>
+				<Label class="rowValue" id="dogDry" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="dog_can_str" />
+				</View>
+				<Label class="rowValue" id="dogCan" />
+			</View>
+			<View class="horizontalLine" />
+			<View class="rowInfo">
+				<View class="rowNameWrapper">
+					<Label class="rowName" textid="treat_str" />
+				</View>
+				<Label class="rowValue" id="treat" />
+			</View>
+			<View class="horizontalLine" />
+		</ScrollView>
+		<!-- <View id="buttons">
+				<Button  id="save" />
+				<!-- <Button  id="updateInformation" class="grayBtn" /> 
+		</View> -->
+	</View>
+</Alloy>

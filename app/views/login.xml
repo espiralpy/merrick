@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="window">
+		<View id="wrapper">
+			<TextField class="field" id="username" />
+			<TextField class="field" id="password" />
+			<Button id="ok" titleid="enter_str" />
+			<Label id="UID" />
+		</View>
+	</Window>
+</Alloy>

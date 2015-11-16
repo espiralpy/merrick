@@ -1,0 +1,251 @@
+//Styles
+"Window" : {
+	backgroundColor: "#FFF",
+	tabBarHidden: true,
+	barImage : "dashboard/topbar_bg_pattern.png"
+},
+"TextArea" : {
+	height: Ti.UI.SIZE
+},
+"TableViewRow" : {
+	selectionStyle: Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+},
+"#logo" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	image: ""
+},
+"#edit" : {
+	width: 35,
+	height: 35,
+	//borderWidth: 1,
+	image: "/store/edit.png",
+	backgroundImage: "/transparent.png"
+},
+"#deleteBtn" : {
+	width: 35,
+	height: 35,
+	//borderWidth: 1,
+	image: "/store/delete.png",
+	backgroundImage: "/transparent.png"
+},
+"#back" : {
+	left: 15,
+	width: 35,
+	height: 35,
+	image: "/dashboard/arrow_left.png",
+	backgroundImage: "/transparent.png"
+},
+"#next" : {
+	right: 15,
+	width: 35,
+	height: 35,
+	image: "/dashboard/arrow_right.png",
+	backgroundImage: "/transparent.png"
+},
+".weekNav" : {
+	width: 18,
+	height: 23
+},
+".verticalLine" : {
+	width: 1,
+	height: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.colors.GRAY_LIGHT,
+	touchEnabled: false
+},
+".horizontalLine" : {
+	width: Ti.UI.FILL,
+	height: 1,
+	backgroundColor: Alloy.Globals.colors.GRAY_LIGHT,
+	touchEnabled: false
+},
+".splitHeader" : {
+	width: Ti.UI.FILL,
+	height: 43,
+	backgroundImage: "/dashboard/topbar_bg_pattern.png",
+	backgroundRepeat: true
+},
+".splitTitle" : {
+	width: Ti.UI.FILL,
+	height: 20,
+	textAlign: "center",
+	font: Alloy.Globals.fonts.DEFAULT_18_BOLD,
+	color: Alloy.Globals.colors.CORK,
+	touchEnabled: false
+},
+".tableWrapper" : {
+	layout: "vertical",
+	borderColor: Alloy.Globals.colors.GRAY,
+	borderRadius: 10
+},
+".tableHeader" : {
+	width: Ti.UI.FILL,
+	height: 45,
+	backgroundColor: Alloy.Globals.colors.GRAY_LIGHT,
+	borderColor: Alloy.Globals.colors.GRAY
+},
+".tableTitle" : {
+	left: 20,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.FILL,
+	color: Alloy.Globals.colors.TANGERINE,
+	font: Alloy.Globals.fonts.LG_28,
+	touchEnabled: false
+},
+".table" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.colors.WHITE,
+	minRowHeight: 60,
+	separatorColor: Alloy.Globals.colors.GRAY_LIGHT
+},
+".tableHeadView" : {
+	width: Ti.UI.FILL,
+	height: 40,
+	layout: "horizontal",
+	backgroundColor: Alloy.Globals.colors.GRAY_LIGHT
+},
+".grayBtn" : {
+	width: 63,
+	height: 30,
+	color: Alloy.Globals.colors.WHITE,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	backgroundImage: "/store/btn.png",
+	backgroundSelectedImage: "/store/btn_pressed.png",
+	backgroundLeftCap: 30,
+	backgroundTopCap: 15
+},
+".addBtn" : {
+	width: 44,
+	height: 30,
+	backgroundImage: "/store/add.png"
+},
+".plusBtn" : {
+	width: 28,
+	height: 28,
+	backgroundImage: "/popup/plus.png",
+	backgroundSelectedImage: "/popup/plus_selected.png"
+},
+".shadow" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.colors.BLACK,
+	opacity: 0.7
+},
+".popup" : {
+	width: 918,
+	height: 616,
+	borderRadius: 10,
+	backgroundColor: Alloy.Globals.colors.BACKGROUND,
+	layout: "vertical"
+},
+".closeBtn" : {
+	left: 15,
+	width: 28,
+	height: 28,
+	backgroundImage: "/popup/icon_close.png"
+},
+".row" : {
+	height: 45,
+	borderRadius: 10,
+	backgroundColor: Alloy.Globals.colors.SPRING,
+	borderColor: Alloy.Globals.colors.GRAY
+},
+".fieldRow" : {
+	layout: "horizontal"
+},
+".rowTitle" : {
+	left: 10,
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.FILL,
+	color: Alloy.Globals.colors.TANGERINE,
+	font: Alloy.Globals.fonts.DEFAULT_15,
+	touchEnabled: false
+},
+".rowDesc" : {
+	left: 5,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	paddingLeft: 15,
+	paddingRight: 15,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: Alloy.Globals.colors.CORK,
+	font: Alloy.Globals.fonts.DEFAULT_15_BOLD
+},
+".optionTitle" : {
+	left: 10,
+	width : Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	color: Alloy.Globals.colors.CORK,
+	font: Alloy.Globals.fonts.DEFAULT_15_BOLD,
+	touchEnabled: false
+},
+".optionLbl" : {
+	right: 30,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	textAlign: "right",
+	color: Alloy.Globals.colors.CORK,
+	font: Alloy.Globals.fonts.DEFAULT_14_BOLD,
+	touchEnabled: false
+},
+".optionIcon" : {
+	right: 10,
+	image: "/store/arrow.png",
+	touchEnabled: false
+},
+"#header" : {
+	top: 0,
+	width: Ti.UI.FILL,
+	height: Alloy.Globals.SIZES.HEADER_HEIGHT,
+	backgroundRepeat: true,
+	backgroundImage: "/dashboard/linen_bg.png"
+},
+"#menu" : {
+	left: 0,
+	top: 0,
+	width: 50,
+	height: Ti.UI.FILL,
+	layout: "vertical",
+	borderColor: Alloy.Globals.colors.GRAY
+},
+".item" : {
+	width: Ti.UI.FILL,
+	height: 60,
+	textAlign: "center",
+	font: Alloy.Globals.fonts.LG_58,
+	color: Alloy.Globals.colors.TANGERINE,
+	normalColor: Alloy.Globals.colors.TANGERINE,
+	selectedColor: Alloy.Globals.colors.BACKGROUND,
+	backgroundColor: Alloy.Globals.colors.BACKGROUND,
+	backgroundNormalColor: Alloy.Globals.colors.BACKGROUND,
+	backgroundSelectedColor: Alloy.Globals.colors.TANGERINE
+},
+//Tab Indices
+"#dashboard" : {
+	index : 0
+},
+"#plan" : {
+	index: 1
+},
+"#stores" : {
+	index: 2
+},
+
+".barTitleup" : {
+	top: 0,
+	width: 1200,
+	height: 50,
+	touchEnabled: false,
+	backgroundImage : "/store/btn_new_pressed.png",
+	borderRadius:"7"
+},
+
+".letterGrayDark" : {
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	color: Alloy.Globals.colors.GRAY_DARK
+},
+".numericKeyboard" :{
+	keyboardType : Ti.UI.KEYBOARD_NUMBER_PAD,
+}

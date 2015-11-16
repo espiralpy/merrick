@@ -1,0 +1,75 @@
+".container": {
+	top: 10,
+	height:350,
+	backgroundColor: Alloy.Globals.colors.WHITE,
+	contentWidth: "100%",
+	contentHeight: "auto",
+	layout: "vertical",
+	borderRadius: 10,
+	borderColor: Alloy.Globals.colors.GRAY
+},
+".verticalWrapper": {
+	left: 20,
+	right: 20,
+	top: 10,
+	bottom: 50,
+	width: 980,
+	height: 1000,
+	layout: "vertical",
+	borderRadius: 10,
+},
+".rowInfo" : {
+	width: Ti.UI.FILL,
+	height: 50,
+	backgroundColor: Alloy.Globals.colors.WHITE,
+	layout: "horizontal"
+},
+".rowNameWrapper" : {
+	left: 0,
+	width: 350,
+	height: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.colors.GRAY_LIGHT
+},
+".rowName" : {
+	left: 10,
+	right: 10,
+	height: Ti.UI.FILL,
+	color: Alloy.Globals.colors.TANGERINE,
+	font: Alloy.Globals.fonts.DEFAULT_18_BOLD
+},
+".rowValue" : {
+	left: 10,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	color: Alloy.Globals.colors.GRAY_DARK,
+	font: Alloy.Globals.fonts.DEFAULT_16
+},
+".horizontalLine" : {
+	backgroundColor: Alloy.Globals.colors.GRAY
+},
+"#updateInformation" : {
+	right: 0,
+	titleid: "update_store_info_str",
+	enabled : true,
+	width : 200,
+},
+"#buttons" : {
+	height:50    
+},
+".grayBtn" : {
+	color: Alloy.Globals.colors.GRAY_MEDIUM,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	backgroundImage: "/store/btn.png",
+	backgroundSelectedImage: "/store/btn_pressed.png",
+	backgroundLeftCap: 30,
+	backgroundTopCap: 15,
+	enabled: false,
+},
+"#save" : {
+	top:10,
+	right: 5,
+	backgroundImage: "/store/save.png",
+	width: 42,
+	height: 29,
+	enabled : false
+},

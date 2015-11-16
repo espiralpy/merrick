@@ -1,0 +1,58 @@
+<Alloy>
+	<Window id="window">
+		<View class="shadow" />
+		<View class="popup">
+			<View class="splitHeader">
+				<Button class="closeBtn" id="closeBtn" />
+				<Label class="splitTitle" textid="new_objective_str" />
+			</View>
+			<View class="wrapper">
+				<View id="menu">
+					<Label class="item" id="s" action="s" />
+					<View class="horizontalLine" />
+					<Label class="item" id="m" action="m" />
+					<View class="horizontalLine" />
+					<Label class="item" id="r" action="r" />
+					<View class="horizontalLine" />
+					<Label class="item" id="t" action="t" />
+				</View>
+				<View class="verticalLine" />
+				<ScrollView id="content">
+					<View id="sWrapper" class="smrtWrapper">
+						<TextArea id="description" class="field" />
+						<Label class="description" text="Description" />
+					</View>
+					<View id="mWrapper" class="smrtWrapper">
+						<TextArea id="mDescription" class="field" />
+						<View class="quantityRow" id="quantityRow">
+							<Label class="quantTitle" textid="quantity_str" />
+							<View class="verticalLine" />
+							<TextField class="quantValue" id="quantity" action="quantity" />
+						</View>
+						<View class="quantityRow" id="distributionRow">
+							<Label class="quantTitle" textid="distribution_sales_value_str" />
+							<View class="verticalLine" />
+							<Label id="distributionDollar" class="dollarSign" textid="$" />
+							<TextField class="currencyValue" id="distribution" action="distribution" />
+						</View>
+						<View class="quantityRow" id="retailRow">
+							<Label class="quantTitle" textid="retail_sales_value_str" />
+							<View class="verticalLine" />
+							<Label id="retailDollar"  class="dollarSign" textid="$" />
+							<TextField class="currencyValue" id="retail" action="retail" />
+						</View>
+					</View>
+					<View id="rWrapper" class="smrtWrapper">
+						<TextField id="responsible" class="field" />
+						<Label class="description" text="Person Responsible" />
+					</View>
+					<View id="tWrapper" class="smrtWrapper">
+						<Label id="dueDate" class="dueDateField" />
+						<Label class="description" text="Due Date" />
+					</View>
+					<Button class="grayBtn" id="done" titleid="done_str" />
+				</ScrollView>
+			</View>
+		</View>
+	</Window>
+</Alloy>

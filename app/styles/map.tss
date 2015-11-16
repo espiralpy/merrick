@@ -1,0 +1,8 @@
+"#window" : {
+	title: L("route_str")
+},
+"#map" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+
+}

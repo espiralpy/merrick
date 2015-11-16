@@ -1,0 +1,66 @@
+<Alloy>
+	<Window id="window">
+		<View id="header">
+			<Require src="userInfo" />
+		</View>
+ 		<View class="splitHeader">
+		    <Label class="splitTitle" id="today" ></Label>
+	    </View>  
+	    
+	    <View class="informationContainer">
+				
+			 <View id="storeInformation" class="tableWrapper">
+			 	   <View id="titleContainer" class="tableSubHeader">
+						<Label class="tableTitle" textid="store_str" id="storeNameTitle" />
+						<Button class="whiteBtn" id="btnSelectStore"/>
+						<Label class="verticalLine" />
+						<Label class="tableTitle" textid="calltype_str" id="callTypeTitle" />
+						<Label class="verticalLine" />
+						<Label class="tableTitle" textid="day_str" id="dayTitle" />
+						<Label class="verticalLine" />
+						<Label class="tableTitle" textid="stop_str" id="stopTitle" />
+					</View>
+					<View id="generalInformationContainer">
+						<View id="storeInformationContainer">
+							<Label class="tableSubContent" textid="" id="storeNameLabel" />
+							<Label class="tableSubContent" textid="" id="addressLabel" />
+							<Label class="tableSubContent" textid="" id="zipLabel" />
+						</View>
+						
+						<Label class="verticalLine" />
+						<Label class="tableSubContent" textid="Retail" id="callType" action="type"/>
+						<Label class="verticalLine" />
+						<Label class="tableSubContent" textid="--" id="day" action="day"/>
+						<Label class="verticalLine" />
+						<Label class="tableSubContent" textid="1" id="stop" action="stop"/>
+					</View>
+			</View>				
+			 <View id="objectivesInformation" class="tableWrapper" >
+			 	   <View class="tableSubHeader">
+						<Label class="tableTitle" textid="objectives_caps_str" id="objectivesTitle" />
+						<Button class="whiteBtn" id="btnAddObjectives"/>
+					</View>
+					<View class="tableHeader">
+						<Label class="subTableTitle" textid="specific_obj_nocaps_str" id="objectives" />
+						<Label class="verticalLineWhite" />
+						<Label class="subTableTitle" textid="quantity_caps_nocaps_str" id="quantity" />
+						<Label class="verticalLineWhite" />
+						<Label class="subTableTitle" textid="dist_sales_str" id="dsv" />
+						<Label class="verticalLineWhite" />
+						<Label class="subTableTitle" textid="retail_sales_str" id="rsv" />
+						<Label class="verticalLineWhite" />
+						<Label class="subTableTitle" textid="due_date_nocaps_str" id="dueDate" />
+					</View>
+				    <TableView id="objectivesList"/>
+			</View>
+		
+	    </View>
+	    
+
+		<View id="buttons">
+			<Button  id="discard" class="grayBtn" />
+			<!-- <Button  id="save" /> -->
+			<Button  id="add" class="grayBtn" />
+		</View>
+	</Window>
+</Alloy>

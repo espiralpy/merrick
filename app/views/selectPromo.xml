@@ -1,0 +1,33 @@
+<Alloy>
+	<Window id="window">
+		<View class="shadow" />
+		<View class="popup">
+			<View class="splitHeader">
+				<Button class="closeBtn" id="closeBtn" />
+				<Label class="splitTitle" />
+			</View>
+			<View class="tableWrapper">
+				<View class="tableHeader">
+					<Label class="tableTitle vip" textid="vip_number_str" />
+					<View class="verticalLine" />
+					<Label class="tableTitle desc" textid="description_str" />
+					<View class="verticalLine" />
+					<Label class="tableTitle a" textid="a_str" />
+						<!--
+					<View class="verticalLine" />
+					<Label class="tableTitle units" textid="units_str" />
+					<View class="verticalLine" />
+				
+						<Label class="tableTitle bought" textid="bought_str" />
+						<View class="verticalLine" />
+						<Label class="tableTitle notPres" textid="not_press_str" />
+						<View class="verticalLine" />
+						<Label class="tableTitle n" textid="not_available_str" />
+					-->
+				</View>
+				<TableView class="table" id="promosList" />
+			</View>
+			<Button class="grayBtn" id="add" />
+		</View>
+	</Window>
+</Alloy>

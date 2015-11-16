@@ -1,0 +1,42 @@
+".field" : {
+	width: 295,
+	height: 47,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	font: Alloy.Globals.fonts.DEFAULT_18
+},
+"#window" : {
+	backgroundImage: "/login/bg.png"
+}
+"#wrapper" : {
+	top: 243,
+	right: 75,
+	width: 350,
+	height: Ti.UI.SIZE,
+	topBlur: 243,
+	topFocus: 130,
+	layout: "vertical",
+	borderColor: Alloy.Globals.colors.BLACK,
+	backgroundColor: Alloy.Globals.colors.ATHS
+},
+"#username" : {
+	top: 28,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	autocorrect: false,
+	hintText: L("username_str")
+},
+"#password" : {
+	top: 10,
+	passwordMask: true,
+	hintText: L("password_str")
+},
+"#ok" : {
+	top: 44,
+	bottom: 20,
+	width: 270,
+	height: 40,
+	borderRadius: 5,
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundColor: Alloy.Globals.colors.TAN,
+	color: Alloy.Globals.colors.WHITE,
+	font: Alloy.Globals.fonts.DEFAULT_18_BOLD
+}

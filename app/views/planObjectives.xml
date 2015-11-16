@@ -1,0 +1,17 @@
+<Alloy>
+	<View class="tableWrapper">
+		<View class="tableHeader" id="tableHeader">
+			<Label class="tableTitle" textid="specific_obj_str" id="specific" />
+			<Label class="verticalLine" />
+			<Label class="tableTitle" textid="quantity_caps_str" id="quantity" />
+			<Label class="verticalLine" />
+			<Label class="tableTitle" textid="dist_sales_str" id="dist" />
+			<Label class="verticalLine" />
+			<Label class="tableTitle" textid="retail_sales_str" id="retail" />
+			<Label class="verticalLine" />
+			<Label class="tableTitle" textid="due_date_str" id="dueDate" />
+			<Label class="verticalLine" />
+		</View>
+		<TableView class="table" id="objectivesList" />
+	</View>
+</Alloy>

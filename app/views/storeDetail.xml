@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="window">
+		<View id="header">
+			<View class="details">
+				<Label class="detailField" id="storeName" />
+				<Label class="detailField" id="address" />
+				<Label class="detailField" id="zip" />
+				<View class="detailField" id="phoneWrp">
+					<ImageView class="phoneIcon" />
+					<Label id="phone" />
+				</View>
+			</View>
+			<View ns="Ti.Map" id="map" userLocation="false"/>
+		</View>
+		<View class="splitHeader">
+			<View id="tabs">
+				<Button id="comments" class="tab" />
+				<Button id="objectives" class="tab" />
+				<Button id="storeInfo" class="tab" />
+			</View>
+			<Button id="save" />
+		</View>
+		<View id="content" />
+	</Window>
+</Alloy>

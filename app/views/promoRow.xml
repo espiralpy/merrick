@@ -1,0 +1,34 @@
+<Alloy>
+	<TableViewRow>
+		<View id="wrapper">
+			<Label class="field promoNumber" id="promoNumber" />
+			<View class="verticalLine" />
+			<Label class="field promoDesc" id="promoDesc" />
+			<View class="verticalLine" />
+			<!-- <Label class="field promoA" id="promoA" />
+			<View class="verticalLine" /> -->
+			
+			<Label class="field" class="dollarSign" text="$"/>
+			<TextField class="field" id="dsv" />
+			<Label class="verticalLine" />
+			<Label class="field" class="dollarSign" text="$"/>
+			<TextField class="field"  id="rsv" />
+			<Label class="verticalLine" />
+			<Label class="field " id="promoStatus" />
+			<View class="verticalLine" />
+			<TextField class="field " id="promoUnits" />
+			<View class="verticalLine" />
+			<!-- <Label class="field promoBought" id="promoBought" />
+			<View class="verticalLine" />
+			<Label class="field promoNotBought" id="promoNotBought" />
+			<View class="verticalLine" />
+			<Label class="field promoNotPres" id="promoNotPres" />
+			<View class="verticalLine" />
+			<Label class="field promoNotAvailable" id="promoNotAvailable" />
+			<View class="verticalLine" /> -->
+			<View id="options">
+				<Button id="deleteBtn" />
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

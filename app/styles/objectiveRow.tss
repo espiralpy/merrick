@@ -1,0 +1,42 @@
+".field" : {
+	top: 3,
+	left: 5,
+	right: 5,
+	bottom: 5,
+	color: Alloy.Globals.colors.GRAY_DARK,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	enabled : false,
+	bubbleParent: false
+},
+"#row" : {
+	touchEnabled: true
+},
+"#wrapper" : {
+	width: Ti.UI.FILL,
+	height: 70,
+	layout: "horizontal"
+},
+"#specific" : {
+	width: "28%",
+	height: 50
+},
+"#quantity" : {
+	width: "10%"
+},
+"#distribution" : {
+	width: "7%"
+},
+"#retail" : {
+	width: "7%"
+},
+"#responsible" : {
+	width: "15%"
+},
+"#dueDate" : {
+	width: "15%"
+},
+"#complete" : {
+	//borderWidth: 1,
+	//width: "10%"
+	enabled: true
+}

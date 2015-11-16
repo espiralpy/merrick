@@ -1,0 +1,98 @@
+"Label" : {
+	width: Ti.UI.SIZE
+}
+".phoneIcon" : {
+	image: "/store/icon_phone.png",
+	touchEnabled: false
+},
+".detailField" : {
+	left: 0,
+	top: 3
+},
+".row" : {
+	top: 5,
+	bottom: 5
+},
+".splitHeader" : {
+	top: Alloy.Globals.SIZES.HEADER_HEIGHT_STORE
+},
+".tab" : {
+	width: 99,
+	height: Ti.UI.FILL
+},
+"#header" : {
+	height: Alloy.Globals.SIZES.HEADER_HEIGHT_STORE
+},
+".details" : {
+	top: 30,
+	left: 30,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	touchEnabled: false
+},
+"#storeName" : {
+	height: 24,
+	color: Alloy.Globals.colors.SPRING,
+	font: Alloy.Globals.fonts.LG_28,
+},
+"#address" : {
+	height: 15,
+	color: Alloy.Globals.colors.CORK,
+	font: Alloy.Globals.fonts.DEFAULT_14
+},
+"#zip" : {
+	height: 15,
+	color: Alloy.Globals.colors.CORK,
+	font: Alloy.Globals.fonts.DEFAULT_14
+},
+"#phoneWrp" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	layout: "horizontal"
+},
+"#phone" : {
+	left: 3,
+	height: 18,
+	color: Alloy.Globals.colors.CORK,
+	font: Alloy.Globals.fonts.DEFAULT_16
+},
+"#map" : {
+	top: 10,
+	bottom: 10,
+	right: 10,
+	width: 650
+},
+"#tabs" : {
+	left: 40,
+	width: Ti.UI.SIZE,
+	height: 30,
+	layout: "horizontal"
+},
+"#comments" : {
+	backgroundImage: "/store/comments_btn_out.png",
+	backgroundNormalImage: "/store/comments_btn_out.png",
+	backgroundSelectedImage: "/store/comments_btn_pressed.png"
+},
+"#objectives" : {
+	backgroundImage: "/store/objectives_btn_out.png",
+	backgroundNormalImage: "/store/objectives_btn_out.png",
+	backgroundSelectedImage: "/store/objectives_btn_pressed.png"
+},
+"#storeInfo" : {
+	backgroundImage: "/store/details_noselected.png",
+	backgroundNormalImage: "/store/details_noselected.png",
+	backgroundSelectedImage: "/store/details_selected.png"
+},
+"#content" : {
+	top: 233,
+	bottom: Alloy.Globals.SIZES.TAB_BAR_HEIGHT,
+	width: Ti.UI.FILL,
+	backgroundColor: Alloy.Globals.colors.BACKGROUND
+},
+"#save" : {
+	right: 30,
+	width: 42,
+	height: 29,
+	backgroundImage: "/store/save.png"
+},

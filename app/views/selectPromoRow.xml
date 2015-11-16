@@ -1,0 +1,22 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View class="wrapper">
+			<Label class="label" id="number" />
+			<View class="verticalLine" />
+			<Label class="label" id="description" />
+			<View class="verticalLine" />
+			<Label class="label" id="a" />
+		<!--
+			<View class="verticalLine" />
+		
+			<Label class="label" id="units" />
+			<View class="verticalLine" />
+			<Label class="label" id="bought" />
+			<View class="verticalLine" />
+			<Label class="label" id="np" />
+			<View class="verticalLine" />
+			<Label class="label" id="n" /> 
+		-->
+		</View>
+	</TableViewRow>
+</Alloy>

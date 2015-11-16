@@ -1,0 +1,25 @@
+"#row" : {
+	height: 45,
+	selectionStyle: Ti.UI.iPhone.TableViewCellSelectionStyle.NONE,
+	hasDetail : true
+},
+".wrapper" : {
+	width: Ti.UI.FILL,
+	layout: "horizontal",
+	touchEnabled: false
+},
+".letterGrayDark" : {
+	textAlign: "center"
+},
+".id" : {
+	width: 120
+},
+".name" : {
+	width: 330
+},
+".address" : {
+	width: 330
+},
+".phone" : {
+	width: Ti.UI.FILL
+}

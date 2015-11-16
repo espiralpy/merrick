@@ -1,0 +1,54 @@
+
+"Label" : {
+	left: 0,
+	width: Ti.UI.FILL,
+	textAlign: "left"
+},
+"View" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+},
+".container": {
+	top: 10,
+	left: 10,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: "horizontal"
+},
+"#data" : {
+	left: 10, //WAS 20 TODO IF NEEDED
+	width: 250,
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+},
+"#avatar" : {
+	left: 0,
+	width: 145,
+	height: 145,
+	touchEnabled: true,
+},
+"#welcome" : {
+	height: 55,
+	font: Alloy.Globals.fonts.LG_58,
+	color: Alloy.Globals.colors.SPRING
+},
+"#user" : {
+	height: 36,
+	width: 245,
+	textAlign: "left",
+	color: Alloy.Globals.colors.ARMADILLO,
+	font: Alloy.Globals.fonts.LG_38,
+	backgroundColor: "/transparent.png",
+	left: 0,
+	touchEnabled: true
+},
+"#date" : {
+	height: 35,
+	color: Alloy.Globals.colors.ARMADILLO,
+	font: Alloy.Globals.fonts.LG_28
+},
+"#sales" : {
+	height: 35,
+	font: Alloy.Globals.fonts.LG_28,
+	color: Alloy.Globals.colors.SPRING
+}

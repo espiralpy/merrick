@@ -1,0 +1,57 @@
+".field" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	textAlign: "center"
+},
+"#wrapper" : {
+	width: Ti.UI.FILL,
+	height: 50,
+	layout: "horizontal"
+},
+"#options" : {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	layout: "horizontal"
+},
+"#deleteBtn" : {
+	left: 15
+},
+".promoNumber" : {
+	width: 230
+},
+".promoDesc" : {
+	width: 270
+},
+".promoA" : {
+	width: 40
+},
+"#promoStatus" : {
+	width: 70,
+},
+"#promoUnits" : {
+	width: 80
+},
+".promoBought" : {
+	width: 100
+},
+"#dsv" : {
+	width: 80,
+	right: 5
+},
+"#rsv" : {
+	width: 80,
+	right: 5
+},
+".promoNotBought" : {
+	width: 100
+},
+".promoNotPres" : {
+	width: 60
+},
+".promoNotAvailable" : {
+	width: 60
+}
+".dollarSign" : {
+	left:5,
+	width:10
+}

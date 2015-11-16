@@ -1,0 +1,22 @@
+<Alloy>
+    <TableViewRow id="rowView">
+    	<View class="wrapper">
+	    	<Label id='namesdesc' class="letterGrayDark"/>
+	    	<View class="verticalLine" />
+			<Label id="callType" class="letterGrayDark" action="type"/>
+	    	<View class="verticalLine" />
+	    	<Label id='quads' class="letterGrayDark"/>
+	    	<View class="verticalLine" />
+	    	<Label id="day" class="letterGrayDark" action="date"/>
+	    	<View class="verticalLine" />
+	    	<Label id="stops" class="letterGrayDark" action="stop"/>
+	    	<View class="verticalLine" />
+	    	<Label id="objectives" class="letterGrayDark" />
+	    	<Button class="plusBtn" id="addObjevtive" action="addObjective" />
+	    	<View class="verticalLine" />
+	    	<TextField id='comments' class="letterGrayDark"/>
+	    	<View class="verticalLine" />
+	    	<Button id="deleteBtn" />
+    	</View>
+    </TableViewRow>
+</Alloy>

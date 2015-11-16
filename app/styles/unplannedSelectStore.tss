@@ -1,0 +1,90 @@
+"#windowStores":{
+	backgroundColor:'transparent'
+},
+"#textSearch" : {
+	top: 10,
+	width: 871,
+	height:40,
+	hintText:"Store Filter",
+	font: Alloy.Globals.fonts.DEFAULT_18,
+	color: Alloy.Globals.colors.BLACK,
+	paddingLeft: 50,
+	paddingRight: 10,
+	backgroundImage: "/popup/search_bar.png"
+},
+".show" : {
+	left: 80,
+	width: Ti.UI.FILL,
+	height: 15,
+	font: Alloy.Globals.fonts.DEFAULT_18,
+	color: Alloy.Globals.colors.CORK
+},
+".filters" : {
+	top: 10,
+	left: 20,
+	right: 20,
+	height: Ti.UI.SIZE
+},
+"#tape4" : {
+	height: Ti.UI.SIZE,
+	left:20,
+	right:20
+},
+"#viewShow" : {
+	width:450,
+	left: 0
+},
+"#viewQuad" : {
+	width:380,
+	right: 0,
+	style : Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	value: false,
+	backgroundNormalColor: Alloy.Globals.colors.SPRING,
+	backgroundSelectedColor: Alloy.Globals.colors.SPRING_DARK
+},
+"#btnDone" : { 
+	right: 0,
+	backgroundImage: "/popup/btn_done.png",
+	width: 79,
+	height: 40
+},
+"#tabs4" : {
+	top:10,
+	right: 80,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".tableWrapper" : {
+	top: 10,
+	left: 25,
+	right: 25,
+	bottom: 10,
+	height: 490
+},
+".tableHeader" : {
+	layout: "horizontal"
+},
+".tableTitle" : {
+	left: 0,
+	textAlign: "center"
+},
+"#tname" : {
+	width: 310
+},
+"#taddress" : {
+	width: 360
+},
+"#tphone" : {
+	width: 155
+},
+"#tquad" : {
+	width: Ti.UI.FILL
+},
+"#basicSwitch" : {
+	left: 0,
+	value: false
+},
+".tLine" : {
+	backgroundColor: Alloy.Globals.colors.GRAY
+}

@@ -1,0 +1,246 @@
+"#window" : {
+	title: L("unplanned_call_str"),
+	backgroundColor: Alloy.Globals.colors.BACKGROUND
+},
+"#header" : {
+	touchEnabled: false,
+},
+".informationContainer" : {
+	
+	layout: "vertical",
+	height: 450,
+	width:  1000,
+	////borderWidth:1,
+	top:220,
+	backgroundColor: Alloy.Globals.colors.BACKGROUND
+},
+".splitHeader" : {
+	top:170,
+	width: Ti.UI.FILL
+},
+"#storeInformation" : {
+	width: 736,
+	height: 135,
+	left: 118
+},
+"#generalInformationContainer" : {
+	width: 736,
+	height: 150,
+	left: 0,
+	layout:"horizontal",
+	backgroundColor: "white",
+	//borderWidth: 1
+	
+},
+"#objectivesInformation" : {
+	top:15,   	
+	height : 230
+},
+"#buttons" : {
+	top:610,
+	height:50    	
+},
+"#titleContainer":{
+	width: 736,
+}
+"#discard" : {
+	top:0,
+	right: 113, //was 165
+	titleid: "labDiscard_str",
+	enabled : false
+},
+"#save" : {
+	top:0,
+	right: 113,
+	backgroundImage: "/store/save.png",
+	width: 42,
+	height: 29,
+	enabled : false
+},
+"#add" : {
+	top:0,
+	right: 15,
+	width: 85,
+	titleid: "add_to_day_str",
+	enabled : false
+},
+"#btnAddObjectives" : {
+	top:10,
+	left: 755,
+	width:110,
+	title: L("add_objective_str"),
+	enabled : false
+},
+"#btnSelectStore" : {
+	top:10,
+	left: 305,
+	right: 10,
+	width:100,
+	title: L("select_store_str"),
+	enabled : true
+},
+
+".weekNav" : {
+	width: 18,
+	height: 23
+},
+".tableWrapper" : {
+	left: 10,
+	right: 10,
+	width: Ti.UI.FILL,
+	//////borderWidth:1
+},
+"#tableView" : {
+	width: Ti.UI.FILL,
+	////borderWidth:1
+},
+
+".tableHeader" : {
+	layout: "horizontal",
+	backgroundColor: "#e1e0dc"
+	////borderWidth:1
+},
+"#storeInformationContainer" : {
+	layout: "vertical",
+	////borderWidth:1,
+	top:15,
+	width: 478,
+	height: 125,
+	backgroundColor: "white",
+	//borderColor: Alloy.Globals.colors.GRAY
+},
+".tableSubHeader" : {
+	layout: "horizontal",	
+	height: 45,
+	//////borderWidth:1,
+	backgroundColor: "#e1e0dc",
+	borderColor: Alloy.Globals.colors.GRAY
+},
+".tableTitle" : {
+	left: 15
+},
+
+".tableContent" : {
+	height: 20,
+	left: 20,
+	font: Alloy.Globals.fonts.DEFAULT_18_BOLD,
+	color: Alloy.Globals.colors.GRAY,
+	touchEnabled: false
+},
+".tableSubContent" : {
+	height: 20,
+	left: 20,
+	top: 0,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	color: "#544d43",
+	touchEnabled: false
+},
+"#objectives" : {
+	width: 310
+},
+"#quantity" : {
+	width: 125
+},
+"#dsv" : {
+	width: 127
+},
+"#rsv" : {
+	width: 127
+},
+"#dueDate" : {
+	width: 150
+},
+
+"#callTypeTitle" : {
+	width:100,
+},
+"#callType" : {
+	width:115,
+	left:0,
+	//borderWidth:1,
+	height: 90,
+	textAlign: "center",
+	touchEnabled: true
+},
+
+"#dayTitle" : {
+	width: 50,
+},
+"#day" : {
+	width: 65,
+	left:0,
+	height: 90,
+	//borderWidth: 1,
+	textAlign: "center",
+	touchEnabled: true
+},
+"#stopTitle" : {
+	width: 60
+},
+"#stop" : {
+	width: 72,
+	left:0,
+	height: 90,
+	//borderWidth:1,
+	textAlign: "center",
+	touchEnabled: true 
+},
+
+
+
+"#storeNameLabel" : {
+	width: 400,
+	//borderWidth:1,
+	font: Alloy.Globals.fonts.DEFAULT_14_BOLD,
+},
+"#addressLabel" : {
+	width: 400,,
+	//borderWidth:1,
+},
+"#zipLabel" : {
+	width: 400,
+	//borderWidth:1,
+},
+
+".grayBtn" : {
+	color: Alloy.Globals.colors.GRAY_MEDIUM,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	backgroundImage: "/store/btn.png",
+	backgroundSelectedImage: "/store/btn_pressed.png",
+	backgroundLeftCap: 30,
+	backgroundTopCap: 15
+},
+
+".whiteBtn" : {
+	color: "gray",
+	backgroundImage: "/unplanned_call/btn_new_big.png",
+	font: Alloy.Globals.fonts.DEFAULT_12_BOLD,
+	//backgroundSelectedImage: "/unplanned_call/btn_new_big.png",
+	backgroundLeftCap: 30,
+	backgroundTopCap: 15,
+	width: 63,
+	height: 30,
+},
+
+
+".subTableTitle" : {
+	left: 10,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.FILL,
+	color: "#7b7b7b",
+	font: Alloy.Globals.fonts.DEFAULT_18_BOLD,
+	touchEnabled: false
+},
+
+".verticalLineWhite" : {
+	width: 1,
+	height: Ti.UI.FILL,
+	backgroundColor: "#e1e0dc",
+	touchEnabled: false
+},
+".verticalLine" : {
+	width: 1,
+	height: Ti.UI.FILL,
+	backgroundColor: "#CACACA",
+	touchEnabled: false
+},

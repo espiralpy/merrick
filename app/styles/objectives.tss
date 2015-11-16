@@ -1,0 +1,45 @@
+"#objectivesContainer" : {
+	top:0,
+	width: 1000,
+	height: 450,
+	layout:"composite",
+},
+".tableWrapper" : {
+	top: 15,
+	left: 10,
+	right: 10,
+	height: 370
+},
+".tableHeader" : {
+	layout: "horizontal"
+},
+".tableTitle" : {
+	left: 10
+},
+".verticalLine" : {
+	backgroundColor: Alloy.Globals.colors.GRAY
+},
+"#add" : {
+	left: 30
+},
+"#specific" : {
+	width: "28%"
+},
+"#quantity" : {
+	width: "10%"
+},
+"#dsv" : {
+	width: "7%"
+},
+"#rsv" : {
+	width: "7%"
+},
+"#responsible" : {
+	width: "15%"
+},
+"#dueDate" : {
+	width: "15%"
+},
+"#complete" : {
+	//width: "26% if set, dissapears
+}

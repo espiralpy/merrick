@@ -1,0 +1,98 @@
+"Label" : {
+	touchEnabled: false
+},
+".container": {
+	top: 6,
+	bottom: 6,
+	left: 10,
+	right: 10,
+	width: 335,
+	height: 100,
+	borderRadius: 10,
+	borderColor: Alloy.Globals.colors.GRAY,
+	backgroundColor: Alloy.Globals.colors.WHITE
+},
+".itemsContainer": {
+	top: 0,
+	bottom: 0,
+	left: 0,
+	right: 0,
+	width: 360,
+	height: 120,
+	borderRadius: 0,
+	layout:"composite"
+},
+".text" : {
+	top: 1,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+},
+".phone" : {
+	left: 0,
+	image: "/dashboard/icon_phone_small.png",
+	touchEnabled: false
+},
+".dataWrp" : {
+	top: 5,
+	left: 40,
+	width: 240,
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	touchEnabled: false
+},
+".footer" : {
+	bottom: 5,
+	width: 240,
+	height: 20,
+	touchEnabled: false
+},
+"#stop" : {
+	left: 0,
+	width: 28,
+	height: Ti.UI.FILL,
+	font: Alloy.Globals.fonts.LG_38,
+	color: Alloy.Globals.colors.ARMADILLO,
+	textAlign: "center",
+	backgroundColor: Alloy.Globals.colors.BACKGROUND
+},
+"#storeName" : {
+	font: Alloy.Globals.fonts.DEFAULT_12_BOLD,
+	color: Alloy.Globals.colors.TANGERINE
+},
+"#address" : {
+	font: Alloy.Globals.fonts.DEFAULT_12,
+	color: Alloy.Globals.colors.GRAY
+},
+"#zip" : {
+	height: 15,
+	font: Alloy.Globals.fonts.DEFAULT_12,
+	color: Alloy.Globals.colors.GRAY
+},
+"#phone" : {
+	left: 23,
+	height: Ti.UI.FILL,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	color: Alloy.Globals.colors.BLACK
+},
+"#quadLbl" : {
+	right: 0,
+	height: Ti.UI.FILL,
+	font: Alloy.Globals.fonts.DEFAULT_14,
+	color: Alloy.Globals.colors.BLACK
+},
+	
+"#ucBookMark": {
+	left : 290,
+	top  : 2,
+	image: "/dashboard/ic-bookmark.png",
+	opacity: 0.0,
+	touchEnabled: false
+},
+"#complete": {
+	left : 300,
+	top  : 65,
+	image: "/dashboard/complete_badge.png",
+	opacity: 0.0,
+	touchEnabled: false
+}	

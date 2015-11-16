@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow>
+		<View id="wrapper">
+			<Label class="presetTitle" id="product" />
+			<TextField  class="presetTitle" id="feet" />
+			<Label class="presetTitle" id="delta" />
+		</View>
+	</TableViewRow>
+</Alloy>

@@ -1,0 +1,46 @@
+".grayBtn" : {
+	top: 10,
+	right: 15,
+	width: 120,
+	title: L("add_to_list_str")
+},
+".tableWrapper" : {
+	top: 5,
+	width: 888,
+	height: 523
+},
+".tableHeader" : {
+	layout: "horizontal"
+},
+".tableTitle"  :{
+	left: 0,
+	font: Alloy.Globals.fonts.DEFAULT_12_BOLD,
+	textAlign: "center"
+},
+".verticalLine" : {
+	backgroundColor: Alloy.Globals.colors.GRAY
+},
+".vip" : {
+	width: 280
+},
+".desc" : {
+	width: 450
+},
+".a" : {
+	width: 150
+},
+// ".units" : {
+	// width: 70
+// },
+// ".bought" : {
+	// width: 70
+// },
+// ".notPres" : {
+	// width: 70
+// },
+// ".n" : {
+	// width: 70
+// },
+"#window" : {
+	backgroundColor: "transparent"
+}

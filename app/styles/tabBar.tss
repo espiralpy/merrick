@@ -1,0 +1,77 @@
+".tab" : {
+	left: 30,
+	width: 80,
+	height: Ti.UI.FILL,
+	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	backgroundSelectedImage: "/tab_bar/btn_pressed.png"
+},
+".tabIcon" : {
+	top: 0,
+	width: 41,
+	height: 42,
+	touchEnabled: false
+},
+".tabTitle" : {
+	bottom: 2,
+	width: Ti.UI.FILL,
+	height: 15,
+	textAlign: "center",
+	color: Alloy.Globals.colors.GRAY_LIGHT,
+	highlightedColor: Alloy.Globals.colors.WHITE,
+	font: Alloy.Globals.fonts.DEFAULT_10_BOLD,
+	touchEnabled: false
+},
+"#bar" : {
+	bottom: 0,
+	width: Ti.UI.FILL,
+	height: Alloy.Globals.SIZES.TAB_BAR_HEIGHT,
+	backgroundRepeat: true,
+	backgroundImage: "/tab_bar/bottombar_bg_pattern.png"
+},
+"#tabs" : {
+	right: 0,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+"#logo" : {
+	left: 20,
+	bottom: 20,
+	width: 118,
+	height: 72,
+	image: "/tab_bar/logo.png"
+},
+"#dashboardIcon" : {
+	image: "/tab_bar/icon_calendar.png",
+	normalImage: "/tab_bar/icon_calendar.png",
+	selectedImage: "/tab_bar/icon_calendar_pressed.png"
+},
+"#planIcon" : {
+	image: "/tab_bar/icon_plan.png",
+	normalImage: "/tab_bar/icon_plan.png",
+	selectedImage: "/tab_bar/icon_plan_pressed.png"
+},
+"#syncIcon" : {
+	image: "/tab_bar/icon_sync.png",
+	normalImage: "/tab_bar/icon_sync.png",
+	selectedImage: "/tab_bar/icon_sync_pressed.png"
+},
+"#storesIcon" : {
+	image: "/tab_bar/icon_stores.png",
+	normalImage: "/tab_bar/icon_stores.png",
+	selectedImage: "/tab_bar/icon_stores_pressed.png"
+},
+"#logoutIcon" : {
+	image: "/tab_bar/icon_signout.png",
+	normalImage: "/tab_bar/icon_signout.png",
+	selectedImage: "/tab_bar/icon_signout_pressed.png"
+},
+"#dashboard" : {
+	index: 0
+},
+"#plan" : {
+	index: 1
+},
+"#stores" : {
+	index: 2
+}

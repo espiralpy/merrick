@@ -1,0 +1,22 @@
+<Alloy>
+	<View id="objectivesContainer">
+		<View class="tableWrapper" id="tableContainer">
+			<View class="tableHeader" id="tableHeader">
+				<Label class="tableTitle" textid="specific_obj_str" id="specific" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="quantity_str" id="quantity" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="dist_sales_str" id="dsv" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="retail_sales_str" id="rsv" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="responsible_str" id="responsible" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="due_date_str" id="dueDate" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="complete_caps_str" id="complete" />
+			</View>
+			<TableView class="table" id="objectivesList" />
+		</View>
+	</View>
+</Alloy>

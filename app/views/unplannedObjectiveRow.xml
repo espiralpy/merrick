@@ -1,0 +1,20 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View id="wrapper">
+			<Label class="field" id="specific" />
+			<View class="verticalLine" />
+			<Label class="field" id="quantity" />
+			<View class="verticalLine" />
+			<Label class="field" id="dist" />
+			<View class="verticalLine" />
+			<Label class="field" id="retail" />
+			<View class="verticalLine" />
+			<Label class="field" id="dueDate" />
+			<View class="verticalLine" />
+			<View id="options">
+				<Button id="edit" />
+				<Button id="deleteBtn" />
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

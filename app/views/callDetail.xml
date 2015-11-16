@@ -1,0 +1,53 @@
+<Alloy>
+	<Window id="window">
+		<View id="header">
+			<View id="details">
+				<Label class="detailField" id="storeName" />
+				<Label class="detailField" id="address" />
+				<Label class="detailField" id="zip" />
+				<View class="detailField" id="phoneWrp">
+					<ImageView class="phoneIcon" />
+					<Label id="phone" />
+				</View>
+				<Label class="detailField" id="quadLbl" />
+			</View>
+			<View id="options">
+				<View class="row fieldRow" id="id">
+					<Label class="rowTitle" textid="id_str" />
+					<View class="verticalLine" />
+					<TextField class="rowDesc" id="idField" />
+				</View>
+				<View class="row fieldRow" id="date">
+					<Label class="rowTitle" textid="planned_date_str" />
+					<View class="verticalLine" />
+					<TextField class="rowDesc" id="dateField" />
+				</View>
+				<View class="row" id="callType">
+					<Label class="optionTitle" textid="call_type_str" id="callTypeLbl" />
+					<ImageView class="optionIcon" />
+				</View>
+				<View class="row" id="checkin">
+					<Label class="optionTitle" textid="in_str" />
+					<Label class="optionLbl" id="checkinLbl" />
+				</View>
+				<View class="row" id="checkout">
+					<Label class="optionTitle" textid="out_str" />
+					<Label class="optionLbl" id="checkoutLbl" />
+				</View>
+				<View class="row" id="complete">
+					<Label class="optionTitle" textid="complete_str" />
+					<!-- <Switch id="completeSwt" /> -->
+				</View>
+			</View>
+		</View>
+		<View class="splitHeader">
+			<View id="tabs">
+				<Button id="comments" class="tab" />
+				<Button id="objectives" class="tab" />
+				<Button id="madtop" class="tab" />
+			</View>
+			<Button id="save" />
+		</View>
+		<View id="content" />
+	</Window>
+</Alloy>

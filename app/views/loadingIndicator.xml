@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="window">
+		<!-- <View class="background" /> -->
+		<View class="wrapper">
+			<ActivityIndicator class="indicator" />
+			<Label id="loadingText" />
+		</View>
+	</Window>
+</Alloy>

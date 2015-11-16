@@ -1,0 +1,44 @@
+".wrapper" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "horizontal"
+},
+".letterGrayDark" : {
+	left: 10,
+	height: Ti.UI.FILL
+},
+".plusBtn" : {
+	heigth: Ti.UI.SIZE,
+	left: 12,
+	right: 10
+},
+"#rowView" : {
+	height: 43
+},
+"#callType" : {
+	width: 129
+},
+"#quads" : {
+	width: 70
+},
+"#day" : {
+	width: 90
+},
+
+"#namesdesc" : {
+	width: 170
+},
+"#stops" : {
+	width: 50
+},
+"#objectives" : {
+	width: 50
+}
+"#comments" : {
+	width: 250,
+	paddingLeft:  3,
+	paddingRight: 3
+},
+"#deleteBtn" : {
+	left: 18,
+}

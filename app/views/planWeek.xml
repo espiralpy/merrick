@@ -1,0 +1,38 @@
+<Alloy>
+	<Window id="window">
+		<View id="header"> 
+			<Require id="myUserInfo" src="userInfo" showSales="true" />
+        </View>
+ 		<View class="splitHeader">
+			<Button class="weekNav" id="back" />
+		    <Label class="splitTitle" id="currentWeek" ></Label>
+		    <Button class="weekNav" id="next" />
+	    </View>  
+	    <View class="tableWrapper">
+			<View class="tableHeader">
+				<Label class="tableTitle" textid="labNamDes_str" id="name" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="calltype_str" id="callType" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="labQuad_str" id="quad" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="labDay_str" id="days" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="labStops_str" id="stops" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="objectives_caps_str" id="objectives" />
+				<Label class="verticalLine" />
+				<Label class="tableTitle" textid="comments_caps_str" id="comments" />
+				<Label class="verticalLine" />
+				<Button id="btnAddStores"/>
+			</View>
+		    <TableView id="tableView"/>
+		</View>
+		<View id="buttons">
+			<!-- <Button  id="feedback" class="grayBtn grayBtn2" /> -->
+			<Button  id="discard" class="grayBtn" />
+			<Button  id="save" />
+			<Button  id="send" class="grayBtn" />
+		</View>
+	</Window>
+</Alloy>

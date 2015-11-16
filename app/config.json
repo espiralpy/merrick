@@ -1,0 +1,20 @@
+{
+	"global": {}, 
+	
+	 
+	 
+	"env:development": {
+		"ROOT_URL" : "https://mufasa.merrickpetcare.com:85/api"
+	}, 
+	"env:test": {
+		"ROOT_URL" : "https://mufasa.merrickpetcare.com:85/api"
+	}, 
+	"env:production": {
+		"ROOT_URL" : "https://mufasa.merrickpetcare.com:85/api"
+	}, 
+	
+	
+	"os:ios": {}, 
+	"os:android": {}, 
+	"dependencies": {}
+}
